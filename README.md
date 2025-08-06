@@ -16,7 +16,23 @@ Otherwise you can clone the repository and run `install.sh` file
 ### Windows
 1. Download the correct installation of the desired version under releases
 2. Unzip the file
-3. Run the `zuite.exe` program
+3. Add the file to your $PATH:
+
+For system-wide access:
+`[Environment]::SetEnvironmentVariable(
+   "Path",
+   [Environment]::GetEnvironmentVariable("Path", "Machine") + ";C:\your-path\zuite-your-version-windows-x86_64",
+   "Machine"
+)`
+
+For user access:
+`[Environment]::SetEnvironmentVariable(
+   "Path",
+   [Environment]::GetEnvironmentVariable("Path", "User") + ";C:\your-path\zuite-your-version-windows-x86_64",
+   "User"
+)`
+
+
 
 ### Manual installation
 1. Clone this repository to your device
