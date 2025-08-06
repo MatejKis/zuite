@@ -6,7 +6,20 @@ and any suggestions and critique would be much appreciated.
 
 ## Installation
 
-1. Clone this directory to your device
+### Unix systems
+Run the following command:
+
+`curl -fsSL https://raw.githubusercontent.com/MatejKis/zuite/main/install.sh | bash`
+
+Otherwise you can clone the repository and run `install.sh` file
+
+### Windows
+1. Download the correct installation of the desired version under releases
+2. Unzip the file
+3. Run the `zuite.exe` program
+
+### Manual installation
+1. Clone this repository to your device
 2. Move to the directory
 3. Run `zig build install --prefix /usr/local`
 
