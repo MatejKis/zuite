@@ -3,15 +3,12 @@ An app for easier testing of zig projects. Provides simpler and less comprehensi
 **Note:** This is W.I.P. it is tested only minimally and only on Endeavour OS. Many features are missing 
 and any suggestions and critique would be much appreciated.
 
----
 
 ## Installation
 
----
 ## Usage
 Run command ``zuite`` in a directory you want to test. Tests will be run for every .zig file prefixed `t_` or `test_`.
 
----
 ## Flags
 ### `-p` or `--path`
 Specifies the directory or file which to test.
