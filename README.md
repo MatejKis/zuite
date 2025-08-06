@@ -6,6 +6,12 @@ and any suggestions and critique would be much appreciated.
 
 ## Installation
 
+1. Clone this directory to your device
+2. Move to the directory
+3. Run `zig build install --prefix /usr/local`
+
+*Note: The part `/usr/local` determines the install location of the app. It therefore can be changed to whatever suits your needs. For example, if you do not have superuser privilages, you can instead use a location which wouldn't require them.*
+
 ## Usage
 Run command ``zuite`` in a directory you want to test. Tests will be run for every .zig file prefixed `t_` or `test_`.
 
